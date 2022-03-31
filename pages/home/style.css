@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    color: #33323D;
+    width: 100vw;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+    margin: 64px 164px 54px 165px;
+}
+
+.logo_main {
+    width: 60.08px;
+    height: 32px;
+}
+
+.nav_home ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_home a {
+    text-decoration: none;
+    margin-left: 43px;
+    color: #33323D;
+}
+
+.current_page a {
+    color: #5FB4A2;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ibarra Real Nova', serif;
+    border: 1px solid #FFFFFF;
+    background-image: url(/assets/home/image-homepage-hero.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 600px;
+    margin: 0px 165px;
+}
+
+.hero_description {
+    margin-top: 243px;
+    padding: 56px 28px 101px 0px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    background-color: #FAFAFA;
+    width: 445px;
+}
+
+.hero_description p {
+    margin-left: 27px;
+}
+
+.hero_button button {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #203A4C;
+    padding-right: 34px;
+    margin-top: 53px;
+}
+
+.hero_button button:hover {
+    background-image: url(/assets/icons/down-arrows-white.svg);
+    background-repeat: no-repeat;
+    background-position-x: 9%;
+    background-position-y: 46%;
+    background-color: rgba(95, 180, 162);
+    cursor: pointer;
+}
+
+.hero_button_img {
+    background-color: rgba(0, 0, 0, 0.10);
+    width: 48px;
+    padding: 18px 16px 18px 16px;
+    margin-right: 34px;
+}
+
+.hero_button_name a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.about_me {
+    display: flex;
+    margin: 55px 165px 0px 165px;
+}
+
+.about_me_img img {
+    width: 540px;
+}
+
+.about_me_description {
+    margin-left: 140px;
+    padding: 51px 0px 46px 0px;
+    border: 1px solid #FFFFFF;
+    border-top: 1px solid rgb(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+}
+
+.about_me_description h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;    
+}
+
+.about_me_description p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 28px;
+    margin-bottom: 24px;
+}
+
+.about_me_button {
+    display: flex;
+    justify-content: center;
+}
+
+.about_me_button a {
+    all: unset;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+    padding: 17px 28px;
+    color: #33323D;
+    text-decoration: none;
+}
+
+.about_me_button a:hover {    
+    color: #FFFFFF;
+    background-color: #33323D;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.contact_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 165px 0px 165px;
+}
+
+.contact_description h1 {    
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+.contact_button {
+    margin-left: 575px;
+}
+
+.contact_button a {
+    all: unset;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+    padding: 17px 50px;
+}
+
+.contact_button a:hover {
+    color: #FFFFFF;
+    background-color: #33323D;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.second_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 24px 165px;
+    background-color: #33323D;
+    margin-top: 150px;
+}
+
+.second_menu_left {
+    display: flex;
+    align-items: center;
+}
+
+.logo_second, .nav_second {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_second ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 48px;
+}
+
+.nav_second li {    
+    margin-right: 42px
+}
+
+.nav_second a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.icons img {
+    margin-left: 16px;
+}

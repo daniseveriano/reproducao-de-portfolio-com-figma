@@ -1,0 +1,83 @@
+@media screen and (max-width:1366px){
+    .main_menu {
+        margin: 50px 90px;
+    }    
+
+    .manage, .bookmark, .insure, .fylo {
+        margin: 50px 90px 0px 90px;
+    }
+
+    .manage_description, .bookmark_description, .insure_description, .fylo_description {
+        padding: 110px 0px;
+    }
+    
+    .contact_section {
+        margin: 150px 90px 0px 90px;
+    }
+
+    .contact_button {
+        margin-left: 550px;
+    }
+
+    .second_menu {
+        padding: 24px 90px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .main_menu {
+        margin: 20px;
+    }    
+
+    .manage_description, .insure_description {
+        margin-left: 40px;
+    }
+    
+    .bookmark_description, .fylo_description {
+        margin-right: 40px;
+    }
+
+    .manage_description, .bookmark_description, .insure_description, .fylo_description {
+        padding: 70px 0px;
+    }
+
+    .contact_button {
+        margin-left: 300px;
+    }
+
+    .second_menu {
+        padding: 24px 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .manage, .bookmark, .insure, .fylo {
+        margin: 50px 40px 0px 40px;
+    }
+
+    .manage_img img, .bookmark_img img, .insure_img img, .fylo_img img {
+        width: 350px;
+        height: auto;
+    }
+
+    .manage_description h1, .bookmark_description h1, .insure_description h1, .fylo_description h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .contact_section {
+        margin: 80px 40px 0px 40px;
+    }
+
+    .contact_description h1 {    
+        font-size: 30px;
+    }
+
+    .contact_button {
+        margin-left: 200px;
+    }
+
+    .second_menu {
+        margin-top: 80px;
+    }
+}

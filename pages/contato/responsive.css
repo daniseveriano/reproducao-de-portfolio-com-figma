@@ -1,0 +1,32 @@
+@media screen and (max-width:1024px){
+    .main_menu {
+        margin: 20px;
+    }
+
+    .line_up {
+        margin: 0px 20px;
+    }
+
+    .contact_description {
+        margin: 94px 20px 96px 20px;
+    }
+
+    .contact_forms {
+        margin: 0px 20px 109px 20px;
+    }
+
+    .line_down {
+        margin: 0px 20px;
+    }
+
+    .second_menu {
+        padding: 24px 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .title h1, .title_forms h1 {
+        width: 350px;
+        margin-right: 20px;
+    }
+}

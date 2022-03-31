@@ -1,0 +1,48 @@
+@media screen and (max-width:1024px){
+    .main_menu {
+        margin: 20px;
+    }
+    
+    .hero_section {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .project {
+        margin: 115px 20px 0px 20px;
+    }
+
+    .links_section {
+        padding: 0px 20px;
+    }
+
+    .contact_section {
+        margin: 150px 20px 0px 20px;
+    }
+
+    .contact_button {
+        margin-left: 350px;
+    }
+
+    .second_menu {
+        padding: 24px 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .project_description {
+        width: 350px;
+        margin-right: 20px;
+    }
+
+    .project_details {
+        width: 300px;
+    }
+
+    .project_details img {
+        width: 300px;
+    }
+
+    .contact_button {
+        margin-left: 200px;
+    }
+}

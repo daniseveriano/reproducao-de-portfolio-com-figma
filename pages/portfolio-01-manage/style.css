@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    color: #33323D;
+    width: 100vw;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+    margin: 64px 164px 14px 165px;
+}
+
+.logo_main {
+    width: 60.08px;
+    height: 32px;
+}
+
+.nav_portfolio ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_portfolio a {
+    text-decoration: none;
+    margin-left: 43px;
+    color: #33323D;
+}
+
+.current_page a {
+    color: #5FB4A2;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 94px;
+    padding: 0px 164px 0px 165px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 115px 165px 0px 165px;
+}
+
+.project_description {
+    width: 350px;
+    margin-right: 125px;
+    padding: 48px 0px;
+}
+
+.project_description h1 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    margin-bottom: 29px;
+}
+
+.project_description p, .project_details p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.project_description p {
+    margin-bottom: 53px;
+}
+
+.project_details p {
+    margin-bottom: 40px;
+}
+
+.project_description a {
+    all: unset;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+    padding: 17px 60px;
+}
+
+.project_description a:hover {
+    color: #FFFFFF;
+    background-color: #33323D;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.emphasis_line1, .emphasis_line2 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;    
+    margin-bottom: 16px;
+}
+
+.emphasis_line2 {
+    margin-bottom: 48px;
+}
+
+.project_details {
+    width: 635px;
+}
+
+.project_details h2 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+    margin-bottom: 28px;
+}
+
+.project_details img {
+    width: 635px;
+    margin-bottom: 32px;
+}
+
+.links_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 165px;
+    margin-top: 32px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.project_before {
+    text-align: start;
+    margin-left: 32px;    
+}
+
+.project_after {    
+    text-align: end;
+    margin-right: 32px;    
+}
+
+.project_before a, .project_after a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.project_before h1, .project_after h1 {    
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+}
+
+.project_before p, .project_after p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.contact_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 165px 0px 165px;
+}
+
+.contact_description h1 {    
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+.contact_button {
+    margin-left: 470px;
+}
+
+.contact_button a {
+    all: unset;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+    padding: 17px 50px;
+}
+
+.contact_button a:hover {
+    color: #FFFFFF;
+    background-color: #33323D;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.second_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 24px 165px;
+    background-color: #33323D;
+    margin-top: 150px;
+}
+
+.second_menu_left {
+    display: flex;
+    align-items: center;
+}
+
+.logo_second, .nav_second {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_second ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 48px;
+}
+
+.nav_second li {    
+    margin-right: 42px
+}
+
+.nav_second a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.icons img {
+    margin-left: 16px;
+}
