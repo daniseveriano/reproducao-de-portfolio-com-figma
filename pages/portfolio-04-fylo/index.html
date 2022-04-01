@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" type="text/css" href="/pages/portfolio-04-fylo/style.css">
     <link rel="stylesheet" href="/pages/portfolio-04-fylo/responsive.css">
 </head>
@@ -19,16 +20,16 @@
     <div class="container">
 
         <header>
-            <div class="main_menu">
-                <div class="logo_main">
+            <div class="menu">
+                <div class="menu__logo">
                     <img src="/assets/logo-dark.svg" alt="Logo">
                 </div>
-                <div class="nav_portfolio">
+                <div class="menu__nav">
                     <nav>
                         <ul>
-                            <li><a href="/pages/home/index.html">HOME</a></li>
-                            <li class="current_page"><a href="/pages/portfolio/index.html">PORTFOLIO</a></li>
-                            <li><a href="/pages/contato/index.html">CONTATO</a></li>
+                            <li class="menu__item"><a href="/pages/home/index.html">HOME</a></li>
+                            <li class="menu__item--active"><a href="/pages/portfolio/index.html">PORTFOLIO</a></li>
+                            <li class="menu__item"><a href="/pages/contato/index.html">CONTATO</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -36,13 +37,13 @@
         </header>
 
         <section>
-            <div class="hero_section">
+            <div class="hero">
                 <img src="/assets/portfolio/fylo/image-fylo-hero.jpg" alt="Projeto Fylo">
             </div>
         </section>
 
         <div class="project">
-            <div class="project_description">
+            <div class="project__title">
                 <aside>
                     <h1>Fylo</h1>
                     <p>
@@ -50,13 +51,13 @@
                         ele foi totalmente responsivo. Eu tomei um caminho mobile-first e usei CSS moderno como Flexbox
                         e Grid para criar o layout.
                     </p>
-                    <div class="emphasis_line1">Interaction Design / Front End Development</div>
-                    <div class="emphasis_line2">HTML / CSS / JS</div>
+                    <div class="project__obj">Interaction Design / Front End Development</div>
+                    <div class="project__lang">HTML / CSS / JS</div>
                     <a href="#">VISITAR</a>
                 </aside>
             </div>
 
-            <div class="project_details">
+            <div class="article">
                 <main>
                     <h2>Projeto</h2>
                     <p>
@@ -74,25 +75,25 @@
         </div>
 
         <section>
-            <div class="links_section">
-                <div class="left">
-                    <div class="before">
+            <div class="links">
+                <div class="links__left">
+                    <div class="left__img">
                         <a href="/pages/portfolio-03-insure/index.html">
                             <img src="/assets/icons/arrow-left.svg" alt="Left">
                     </div>
-                    <div class="project_before">
+                    <div class="links__before">
                         <h1>Insure</h1>
                         <p>Projeto Anterior</p>
                         </a>
                     </div>
                 </div>
-                <div class="right">
-                    <div class="project_after">
+                <div class="links__right">
+                    <div class="links__after">
                         <a href="/pages/portfolio-01-manage/index.html">
                             <h1>Manage</h1>
                             <p>Próximo Projeto</p>
                     </div>
-                    <div class="after">
+                    <div class="right__img">
                         <img src="/assets/icons/arrow-right.svg" alt="Right">
                         </a>
                     </div>
@@ -101,23 +102,23 @@
         </section>
 
         <section>
-            <div class="contact_section">
-                <div class="contact_description">
+            <div class="contact">
+                <div class="contact__title">
                     <h1>Interessado em fazer projetos comigo?</h1>
                 </div>
-                <div class="contact_button">
+                <div class="contact__btn">
                     <a href="/pages/contato/index.html">CONTATO</a>
                 </div>
             </div>
         </section>
 
         <footer>
-            <div class="second_menu">
-                <div class="second_menu_left">
-                    <div class="logo_second">
+            <div class="menu__sec">
+                <div class="menu__left">
+                    <div class="sec__logo">
                         <img src="/assets/logo-light.svg" alt="Logo">
                     </div>
-                    <div class="nav_second">
+                    <div class="sec__nav">
                         <nav>
                             <ul>
                                 <li><a href="/pages/home/index.html">HOME</a></li>
@@ -127,8 +128,8 @@
                         </nav>
                     </div>
                 </div>
-                <div class="second_menu_right">
-                    <div class="icons">
+                <div class="menu__right">
+                    <div class="menu__icons">
                         <a href="https://github.com/daniseveriano" target="_blank" rel="noopener noreferrer"><img
                                 src="/assets/icons/github-light.svg" alt="GitHub"></a>
                         <img src="/assets/icons/twitter-light.svg" alt="Twitter">

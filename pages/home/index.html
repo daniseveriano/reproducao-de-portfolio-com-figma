@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" type="text/css" href="/pages/home/style.css">
     <link rel="stylesheet" href="/pages/home/responsive.css">
 </head>
@@ -19,16 +20,16 @@
     <div class="container">
 
         <header>
-            <div class="main_menu">
-                <div class="logo_main">
+            <div class="menu">
+                <div class="menu__logo">
                     <img src="/assets/logo-dark.svg" alt="Logo">
                 </div>
-                <div class="nav_home">
+                <div class="menu__nav">
                     <nav>
                         <ul>
-                            <li class="current_page"><a href="/pages/home/index.html">HOME</a></li>
-                            <li><a href="/pages/portfolio/index.html">PORTFOLIO</a></li>
-                            <li><a href="/pages/contato/index.html">CONTATO</a></li>
+                            <li class="menu__item--active"><a href="/pages/home/index.html">HOME</a></li>
+                            <li class="menu__item"><a href="/pages/portfolio/index.html">PORTFOLIO</a></li>
+                            <li class="menu__item"><a href="/pages/contato/index.html">CONTATO</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -37,18 +38,18 @@
 
         <main>
             <section>
-                <div class="hero_section">
-                    <div class="hero_description">
+                <div class="hero">
+                    <div class="hero__article">
                         <p>
                             Olá, me chamo Alex Spencer e eu amo construir websites lindos
                         </p>
 
-                        <div class="hero_button">
+                        <div class="hero__btn">
                             <button>
-                                <div class="hero_button_img">
+                                <div class="btn__img">
                                     <img src="/assets/icons/down-arrows.svg" alt="Seta">
                                 </div>
-                                <div class="hero_button_name">
+                                <div class="btn__name">
                                     <a href="#sobre">SOBRE MIM</a>
                                 </div>
                             </button>
@@ -58,11 +59,11 @@
             </section>
 
             <section>
-                <div class="about_me">
-                    <div class="about_me_img">
+                <div class="about">
+                    <div class="about__img">
                         <img src="/assets/home/image-homepage-profile.jpg" alt="Foto do Perfil">
                     </div>
-                    <div class="about_me_description">
+                    <div class="about__article">
                         <h1 id="sobre">Sobre mim</h1>
                         <p>
                             Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em escrever
@@ -76,7 +77,7 @@
                             de casa. Eu adoro estar próximo a natureza seja para uma caminhada, corrida ou ciclismo. Eu
                             amaria se você desse uma olhada no meu trabalho.
                         </p>
-                        <div class="about_me_button">
+                        <div class="about__btn">
                             <a href="/pages/portfolio/index.html">iR para PORTFOLIO</a>
                         </div>
                     </div>
@@ -85,23 +86,23 @@
         </main>
 
         <section>
-            <div class="contact_section">
-                <div class="contact_description">
+            <div class="contact">
+                <div class="contact__title">
                     <h1>Interessado em fazer projetos comigo?</h1>
                 </div>
-                <div class="contact_button">
+                <div class="contact__btn">
                     <a href="/pages/contato/index.html">CONTATO</a>
                 </div>
             </div>
         </section>
 
         <footer>
-            <div class="second_menu">
-                <div class="second_menu_left">
-                    <div class="logo_second">
+            <div class="menu__sec">
+                <div class="menu__left">
+                    <div class="sec__logo">
                         <img src="/assets/logo-light.svg" alt="Logo">
                     </div>
-                    <div class="nav_second">
+                    <div class="sec__nav">
                         <nav>
                             <ul>
                                 <li><a href="/pages/home/index.html">HOME</a></li>
@@ -111,8 +112,8 @@
                         </nav>
                     </div>
                 </div>
-                <div class="second_menu_right">
-                    <div class="icons">
+                <div class="menu__right">
+                    <div class="menu__icons">
                         <a href="https://github.com/daniseveriano" target="_blank" rel="noopener noreferrer"><img
                                 src="/assets/icons/github-light.svg" alt="GitHub"></a>
                         <img src="/assets/icons/twitter-light.svg" alt="Twitter">

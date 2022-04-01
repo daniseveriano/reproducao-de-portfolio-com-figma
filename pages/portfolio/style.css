@@ -1,84 +1,55 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    background-color: #FAFAFA;
-    color: #33323D;
-    width: 100vw;
-}
-
-.main_menu {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;    
-    margin: 64px 164px 14px 165px;
-}
-
-.logo_main {
-    width: 60.08px;
-    height: 32px;
-}
-
-.nav_portfolio ul {
-    display: flex;
-    list-style: none;
-}
-
-.nav_portfolio a {
-    text-decoration: none;
-    margin-left: 43px;
-    color: #33323D;
-}
-
-.current_page a {
-    color: #5FB4A2;
-}
-
-.manage, .bookmark, .insure, .fylo {
+.manage,
+.bookmark,
+.insure,
+.fylo {
     display: flex;
     align-items: center;
     margin: 80px 213px 0px 212px;
 }
 
-.manage_img img, .bookmark_img img, .insure_img img, .fylo_img img {
+.manage__img img,
+.bookmark__img img,
+.insure__img img,
+.fylo__img img {
     width: 540px;
     height: 500px;
 }
 
-.manage_description, .insure_description {
+.manage__article,
+.insure__article {
     margin-left: 140px;
 }
 
-.bookmark_description, .fylo_description {
+.bookmark__article,
+.fylo__article {
     margin-right: 140px;
 }
 
-.manage_description, .bookmark_description, .insure_description, .fylo_description {    
+.manage__article,
+.bookmark__article,
+.insure__article,
+.fylo__article {
     padding: 103px 0px;
     border: 1px solid #FFFFFF;
     border-top: 1px solid rgb(51, 50, 61, 0.15);
     border-bottom: 1px solid rgb(51, 50, 61, 0.15);
 }
 
-.manage_description h1, .bookmark_description h1, .insure_description h1, .fylo_description h1 {
+.manage__article h1,
+.bookmark__article h1,
+.insure__article h1,
+.fylo__article h1 {
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 42px;
-    letter-spacing: -0.357143px;    
+    letter-spacing: -0.357143px;
 }
 
-.manage_description p, .bookmark_description p, .insure_description p, .fylo_description p {
+.manage__article p,
+.bookmark__article p,
+.insure__article p,
+.fylo__article p {
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -89,7 +60,10 @@
     margin-bottom: 54px;
 }
 
-.manage_button a, .bookmark_button a, .insure_button a, .fylo_button a {
+.manage__btn a,
+.bookmark__btn a,
+.insure__btn a,
+.fylo__btn a {
     all: unset;
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
@@ -103,96 +77,12 @@
     padding: 17px 28px;
 }
 
-.manage_button a:hover, .bookmark_button a:hover, .insure_button a:hover, .fylo_button a:hover {
+.manage__btn a:hover,
+.bookmark__btn a:hover,
+.insure__btn a:hover,
+.fylo__btn a:hover {
     color: #FFFFFF;
     background-color: #33323D;
     cursor: pointer;
     transition: 0.5s ease-out;
-}
-
-.contact_section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 150px 213px 0px 212px;
-}
-
-.contact_description h1 {    
-    font-family: 'Ibarra Real Nova', serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
-    letter-spacing: -0.357143px;
-}
-
-.contact_button {
-    margin-left: 470px;
-}
-
-.contact_button a {
-    all: unset;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border: 1px solid #33323D;
-    box-sizing: border-box;
-    padding: 17px 50px;
-}
-
-.contact_button a:hover {
-    color: #FFFFFF;
-    background-color: #33323D;
-    cursor: pointer;
-    transition: 0.5s ease-out;
-}
-
-.second_menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding: 24px 165px;
-    background-color: #33323D;
-    margin-top: 150px;
-}
-
-.second_menu_left {
-    display: flex;
-    align-items: center;
-}
-
-.logo_second, .nav_second {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav_second ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-left: 48px;
-}
-
-.nav_second li {    
-    margin-right: 42px
-}
-
-.nav_second a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.icons img {
-    margin-left: 16px;
 }

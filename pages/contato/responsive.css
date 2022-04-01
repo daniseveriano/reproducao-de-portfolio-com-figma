@@ -1,31 +1,33 @@
-@media screen and (max-width:1024px){
-    .main_menu {
+@media screen and (max-width:1024px) {
+    .menu {
         margin: 20px;
     }
 
-    .line_up {
+    .line__up {
         margin: 0px 20px;
     }
 
-    .contact_description {
+    .contact {
         margin: 94px 20px 96px 20px;
     }
 
-    .contact_forms {
+    .forms {
         margin: 0px 20px 109px 20px;
     }
 
-    .line_down {
+    .line__down {
         margin: 0px 20px;
     }
 
-    .second_menu {
+    .menu__sec {
         padding: 24px 20px;
     }
 }
 
-@media screen and (max-width:768px){
-    .title h1, .title_forms h1 {
+@media screen and (max-width:768px) {
+
+    .contact__title h1,
+    .forms__title h1 {
         width: 350px;
         margin-right: 20px;
     }

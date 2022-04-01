@@ -1,9 +1,9 @@
-@media screen and (max-width:1024px){
-    .main_menu {
+@media screen and (max-width:1024px) {
+    .menu {
         margin: 20px;
     }
-    
-    .hero_section {
+
+    .hero {
         padding: 0px 20px 0px 20px;
     }
 
@@ -11,38 +11,38 @@
         margin: 115px 20px 0px 20px;
     }
 
-    .links_section {
+    .links {
         padding: 0px 20px;
     }
 
-    .contact_section {
+    .contact {
         margin: 150px 20px 0px 20px;
     }
 
-    .contact_button {
+    .contact__btn {
         margin-left: 350px;
     }
 
-    .second_menu {
+    .menu__sec {
         padding: 24px 20px;
     }
 }
 
-@media screen and (max-width:768px){
-    .project_description {
+@media screen and (max-width:768px) {
+    .project__title {
         width: 350px;
         margin-right: 20px;
     }
 
-    .project_details {
+    .article {
         width: 300px;
     }
 
-    .project_details img {
+    .article img {
         width: 300px;
     }
 
-    .contact_button {
+    .contact__btn {
         margin-left: 200px;
     }
 }
