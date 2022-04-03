@@ -3,12 +3,12 @@
     flex-direction: column;
     font-family: 'Ibarra Real Nova', serif;
     border: 1px solid #FFFFFF;
-    background-image: url(/assets/home/image-homepage-hero.jpg);
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
     height: 600px;
-    margin: 0px 165px;
+    margin: 54px 165px 0px 165px;
 }
 
 .hero__article {
@@ -45,7 +45,7 @@
 }
 
 .hero__btn button:hover {
-    background-image: url(/assets/icons/down-arrows-white.svg);
+    background-image: url(../../assets/icons/down-arrows-white.svg);
     background-repeat: no-repeat;
     background-position-x: 9%;
     background-position-y: 46%;
